@@ -11,6 +11,9 @@
     <title>REST Project - Home Page</title>
 </head>
 <body>
-<p>REST Project - Home Page</p>
+<h2>REST Project - Home Page</h2>
+<hr>
+<a href="${pageContext.request.contextPath}/test/hello">Hello Page</a><br>
+<a href="${pageContext.request.contextPath}/api/students">List of Students</a>
 </body>
 </html>
