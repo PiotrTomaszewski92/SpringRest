@@ -14,6 +14,7 @@
 <h2>REST Project - Home Page</h2>
 <hr>
 <a href="${pageContext.request.contextPath}/test/hello">Hello Page</a><br>
-<a href="${pageContext.request.contextPath}/api/students">List of Students</a>
+<a href="${pageContext.request.contextPath}/api/students">List of Students</a><br>
+<a href="${pageContext.request.contextPath}/api/customers">Show All Customers</a><br>
 </body>
 </html>
